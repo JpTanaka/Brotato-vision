@@ -1,0 +1,7 @@
+datasets
+images
+runs
+venv
+*.pt
+*.jpg
+videos
