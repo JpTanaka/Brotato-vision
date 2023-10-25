@@ -1,8 +1,46 @@
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: datasets  # dataset root dir
-train: images  # train images (relative to 'path') 4 images
-val: images # val images (relative to 'path') 4 images
+train: images/train  # train images (relative to 'path') 4 images
+val: images/test # val images (relative to 'path') 4 images
 
 names:
-  0: enemy
-  1: player
+  0: Player
+  1: Baby Alien
+  2: Chaser
+  3: Spitter
+  4: Charger
+  5: Pursuer
+  6: Bruiser
+  7: Buffer
+  8: Fly
+  9: Corrupted Tree
+  10: Predator
+  11: Invoker
+  12: Healer
+  13: Looter
+  14: Helmet Alien
+  15: Fin Alien
+  16: Spawner
+  17: Junkie
+  18: Horned Bruiser
+  19: Horned Charger
+  20: Rhino
+  21: Butcher
+  22: Monk
+  23: Slasher Egg
+  24: Slasher
+  25: Tentacle
+  26: Lamprey
+  27: Croc
+  28: Colossus
+  29: undefined1
+  30: undefined2
+  31: undefined3
+  32: Mantis
+  33: Mother
+  34: Gargoyle
+  35: Tree
+  36: Gold
+  37: Fruit
+  38: Item Box
+  39: Legendary Item Box

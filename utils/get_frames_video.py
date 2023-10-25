@@ -33,9 +33,7 @@ def extract_frames(video_path: str, output_folder: str, interval_seconds: str) -
                 break
 
             if frame_count % interval_frames == 0:
-                frame_filename = (
-                    f"{images_folder}/frame_{frame_count // interval_frames}.jpg"
-                )
+                frame_filename = f"{images_folder}/{video_name_no_extension}_frame_{frame_count // interval_frames}.jpg"
                 cv2.imwrite(frame_filename, frame)
                 print(f"Saved {frame_filename}")
                 cv2.imwrite(

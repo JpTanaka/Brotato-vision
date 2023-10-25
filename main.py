@@ -4,10 +4,10 @@ from PIL import Image
 model = YOLO("yolov8m.pt")
 
 
-results = model.train(data="config.yaml", epochs=10)
+results = model.train(data="config.yaml", epochs=50)
 path = model.export(format="onnx")
 
-results = model("images/video_1/frame_8.jpg")
+results = model("test.png")
 
 for r in results:
     print(r)

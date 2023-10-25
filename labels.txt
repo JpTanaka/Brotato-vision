@@ -1,0 +1,40 @@
+Player
+Baby Alien
+Chaser
+Spitter
+Charger
+Pursuer
+Bruiser
+Buffer
+Fly
+Corrupted Tree
+Predator
+Invoker
+Healer
+Looter
+Helmet Alien
+Fin Alien
+Spawner
+Junkie
+Horned Bruiser
+Horned Charger
+Rhino
+Butcher
+Monk
+Slasher Egg
+Slasher
+Tentacle
+Lamprey
+Croc
+Colossus
+undefined1
+undefined2
+undefined3
+Mantis
+Mother
+Gargoyle
+Tree
+Gold 36
+Fruit
+Item Box
+Legendary Item Box
