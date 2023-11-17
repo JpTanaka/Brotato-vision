@@ -10,3 +10,4 @@ env
 *.pt
 *.jpg
 videos
+!trained_model.pt
