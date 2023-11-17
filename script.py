@@ -37,7 +37,7 @@ if __name__ == "__main__":
         "sprites/baby_alien_img.png",
         "sprites/baby_alien_img2.png",
     ]
-    image_path = "images/video_1/frame_7.jpg"
+    image_path = "test.png"
     threshold = 0.35
 
     template_matching(image_path, template_paths, threshold)

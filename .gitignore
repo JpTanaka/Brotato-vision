@@ -1,4 +1,8 @@
-datasets
+datasets/*
+!datasets/images/test/
+!datasets/images/train/
+!datasets/labels/test/
+!datasets/labels/train/
 images
 runs
 venv

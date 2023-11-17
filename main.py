@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 from PIL import Image
 
-model = YOLO("yolov8m.pt")
+model = YOLO("yolov8n.pt")
 
 
 results = model.train(data="config.yaml", epochs=50)
