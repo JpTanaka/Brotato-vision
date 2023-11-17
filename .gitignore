@@ -6,6 +6,7 @@ datasets/*
 images
 runs
 venv
+env
 *.pt
 *.jpg
 videos
