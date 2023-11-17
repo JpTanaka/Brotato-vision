@@ -5,7 +5,6 @@ if torch.cuda.is_available():
     torch.cuda.set_device(0)
 
 from PIL import Image
-import time
 import cv2
 import numpy as np
 
@@ -14,7 +13,7 @@ model = YOLO("trained_model.pt")
 corner = (320, 210)
 size = (1280, 720)
 bbox = (corner[0], corner[1], corner[0] + size[0], corner[1] + size[1])
-
+# TODO: change video
 video_path = "sample_video.mp4"
 capture = cv2.VideoCapture(video_path)
 current_frame = 0
