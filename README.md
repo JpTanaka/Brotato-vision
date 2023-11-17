@@ -16,7 +16,7 @@ https://github.com/JpTanaka/Brotato-vision/assets/82896115/396c0de6-f732-458e-88
 
 ## Data annotation
 
-The data for this project was gathered using the source code of the game to generate the annotated data while the game was played. Due to copyright, we can only share the part of the code we used to do this, it is disponible in [main.gd](https://github.com/JpTanaka/Brotato-vision/blob/main/utils/main.gd) and the [add_id_field.sh](https://github.com/JpTanaka/Brotato-vision/blob/main/utils/add_id_field.sh) script to assign the ids and labels for each entity in the game.
+The data for this project was gathered using the source code of the game to generate the annotated data while the game was played. Due to copyright, we can only share the part of the code we used to do this, it is available in [main.gd](https://github.com/JpTanaka/Brotato-vision/blob/main/utils/main.gd) and the [add_id_field.sh](https://github.com/JpTanaka/Brotato-vision/blob/main/utils/add_id_field.sh) script to assign IDs and labels to each entity in the game..
 
 To obtain the source code of the game, you can find it [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2931079751).
 
