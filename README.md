@@ -6,9 +6,10 @@ Originally a project for the course INF573 - Image Analysis and Computer Vision 
 
 Authors: Artur César(czartur) and João Tanaka(jptanaka)
 
-![image](https://github.com/JpTanaka/Brotato-vision/assets/82896115/5da54ff0-45db-4d33-82fe-62338b3f1e45)
+![image](https://github.com/JpTanaka/Brotato-vision/assets/82896115/d5c3c25a-0429-4f68-82c6-da0cca18d221)
 
-https://github.com/JpTanaka/Brotato-vision/assets/82896115/396c0de6-f732-458e-88a8-39d852357098
+
+https://github.com/JpTanaka/Brotato-vision/assets/82896115/e1a11a9d-b791-4c0a-be0e-92c244d93adf
 
 <!-- TODO: add installation step -->
 
