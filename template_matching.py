@@ -38,6 +38,6 @@ if __name__ == "__main__":
         "sprites/baby_alien_img2.png",
     ]
     image_path = "test.png"
-    threshold = 0.35
+    threshold = 0.2
 
     template_matching(image_path, template_paths, threshold)
