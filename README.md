@@ -74,7 +74,7 @@ Those commands will run the script using default inputs and options. Use "--help
 To train your model using the data from the datasets folder, execute the following command:
 
 ```
-python3 utils/trainer.py
+python3 training/trainer.py
 ```
 
 To run it with your own model, you only need to additionally specify its path as an argument to `brotato_vision.py`:
