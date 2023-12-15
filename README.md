@@ -44,6 +44,13 @@ python3 brotato_vision.py --video samples/sample_video.mp4
 python3 brotato_vision.py --image samples/sample_image.jpg
 ```
 
+Provided that you have the game installed and running, the script can also find the game window (you must put it on top) and run predictions in real time.
+
+**Example for Game:**
+
+```
+python3 brotato_vision.py --game
+```
 ## Feature and Template Matching
 
 To run the feature matching and template matching algorithms, use the following commands:
@@ -60,6 +67,8 @@ python3 feature_matching.py
 python3 template_matching.py
 ```
 
+Those commands will run the script using default inputs and options. Use "--help" tag to understand how to customize them.
+
 ## Training your model
 
 To train your model using the data from the datasets folder, execute the following command:
@@ -68,10 +77,10 @@ To train your model using the data from the datasets folder, execute the followi
 python3 utils/trainer.py
 ```
 
-To run it with your own model, you only need to specify its path as an argument to `brotato_vision.py`:
+To run it with your own model, you only need to additionally specify its path as an argument to `brotato_vision.py`:
 
 ```
-python3 brotato_vision.py --model_path path_to_your_model.pt
+python3 brotato_vision.py ... --model_path path_to_your_model.pt 
 ```
 
 ## Data annotation
