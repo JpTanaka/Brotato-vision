@@ -44,7 +44,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Feature Matching using SIFT for a single template and background image")
 
     parser.add_argument("--template", type=str, default=str(project_dir) + "/sprites/baby_alien_1.png", help="Path to template image")
-    parser.add_argument("--background", type=str, default=str(project_dir) + "/background.png", help="Path to background image")
+    parser.add_argument("--background", type=str, default=str(project_dir) + "/samples/sample_image.png", help="Path to background image")
     parser.add_argument("--ignore_ratio_test", action="store_true", help="Do not use ratio test")
     args = parser.parse_args()
     

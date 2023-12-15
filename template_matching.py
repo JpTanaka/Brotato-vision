@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
     parser.add_argument("--object", type=str, default=None, help="Name of object to be matched. Only image names containing it a substring will be selected")
     parser.add_argument("--templates_dir", type=str, default=str(project_dir) + "/sprites", help="Name of folder containing template images")
-    parser.add_argument("--background", type=str, default=str(project_dir) + "/background.png", help="Path to background image")
+    parser.add_argument("--background", type=str, default=str(project_dir) + "/samples/sample_image.png", help="Path to background image")
     parser.add_argument("--threshold", type=float, default = 0.25, help="Threshold value used in the algorithm")
 
     args = parser.parse_args()
