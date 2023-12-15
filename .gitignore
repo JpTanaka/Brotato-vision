@@ -1,6 +1,7 @@
 runs
 venv
 env
+*.cache
 *.pt
 *.jpg
 videos
