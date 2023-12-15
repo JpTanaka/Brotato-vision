@@ -4,5 +4,6 @@ env
 *.cache
 *.pt
 *.jpg
+*.DS_Store
 videos
 !trained_model.pt
