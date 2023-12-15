@@ -87,5 +87,5 @@ python3 brotato_vision.py ... --model_path path_to_your_model.pt
 
 The data for this project was gathered using the source code of the game to generate the annotated data while the game was played. Due to copyright, we can only share the part of the code we used to do this, it is available in [main.gd](https://github.com/JpTanaka/Brotato-vision/blob/main/utils/main.gd) and the [add_id_field.sh](https://github.com/JpTanaka/Brotato-vision/blob/main/utils/add_id_field.sh) script to assign IDs and labels to each entity in the game..
 
-To obtain the source code of the game, you can visite [this link](https://steamcommunity.com/sharedfiles/filedetails/?id=2931079751).
+To obtain the source code of the game, you can visit [this link](https://steamcommunity.com/sharedfiles/filedetails/?id=2931079751).
 
