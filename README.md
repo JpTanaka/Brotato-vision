@@ -60,7 +60,19 @@ python3 feature_matching.py
 python3 template_matching.py
 ```
 
-<!-- TODO: add data to the repository? -->
+## Training your model
+
+To train your model using the data from the datasets folder, execute the following command:
+
+```
+python3 utils/trainer.py
+```
+
+To run it with your own model, you only need to specify its path as an argument to `brotato_vision.py`:
+
+```
+python3 brotato_vision.py --model_path path_to_your_model.pt
+```
 
 ## Data annotation
 
