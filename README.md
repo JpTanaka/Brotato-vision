@@ -85,7 +85,11 @@ python3 brotato_vision.py ... --model_path path_to_your_model.pt
 
 ## Data annotation
 
-The data for this project was gathered using the source code of the game to generate the annotated data while the game was played. Due to copyright, we can only share the part of the code we used to do this, it is available in [main.gd](https://github.com/JpTanaka/Brotato-vision/blob/main/utils/main.gd) and the [add_id_field.sh](https://github.com/JpTanaka/Brotato-vision/blob/main/utils/add_id_field.sh) script to assign IDs and labels to each entity in the game..
+The data for this project was gathered using the source code of the game to generate the annotated data while the game was played. Due to copyright, we can only share the part of the code we used to do this, it is available in [main.gd](https://github.com/JpTanaka/Brotato-vision/blob/main/utils/main.gd) and [add_id_field.sh](https://github.com/JpTanaka/Brotato-vision/blob/main/utils/add_id_field.sh).
+
+Throught the first script we acces the real time positions of most of the objects in the game and match them to the corresponding sprites' dimensions. With this information we can estimate bounding boxes for each object.
+
+The second one is used to assign IDs and labels to each entity in the game, which we use to identify the classes of objects.
 
 To obtain the source code of the game, you can visit [this link](https://steamcommunity.com/sharedfiles/filedetails/?id=2931079751).
 
