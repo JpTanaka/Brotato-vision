@@ -11,7 +11,54 @@ Authors: Artur César(czartur) and João Tanaka(jptanaka)
 
 https://github.com/JpTanaka/Brotato-vision/assets/82896115/e1a11a9d-b791-4c0a-be0e-92c244d93adf
 
-<!-- TODO: add installation step -->
+## Installation
+
+1. **Clone the Repository:**
+   Clone this repository to your local machine:
+
+   ```
+   git clone https://github.com/JpTanaka/Brotato-vision.git
+   cd Brotato-vision
+   ```
+
+2. **Install Requirements:**
+   Install the required packages from `requirements.txt` using `pip`:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+## Running the Trained Model
+
+To use the trained model on an image or video, execute `brotato_vision.py` and provide the file type and its name as parameters.
+
+**Example for Video:**
+
+```
+python3 brotato_vision.py --video samples/sample_video.mp4
+```
+
+**Example for Image:**
+
+```
+python3 brotato_vision.py --image samples/sample_image.jpg
+```
+
+## Feature and Template Matching
+
+To run the feature matching and template matching algorithms, use the following commands:
+
+**Feature Matching:**
+
+```
+python3 feature_matching.py
+```
+
+**Template Matching:**
+
+```
+python3 template_matching.py
+```
 
 <!-- TODO: add data to the repository? -->
 
